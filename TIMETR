@@ -1,0 +1,9 @@
+#include "stm32f10x.h"
+int i;
+void clock_config();
+void TIMER_config(void);
+int main ()
+{
+   clock_config();
+   GPIOA->CRH=(GPIOA->CRH);
+   }
